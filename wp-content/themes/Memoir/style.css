@@ -45,7 +45,14 @@ table { border-collapse: collapse; border-spacing: 0; }
 /*-----------------[BASIC STYLES]-----------------*/
 /*------------------------------------------------*/
 
-body { line-height: 18px; font-family: Georgia, serif; font-size: 14px; color: #7c7c7c; text-shadow: 1px 1px 1px #ffffff; padding-top: 80px; }
+body {
+	line-height: 18px;
+	font-family: Verdana, Helvetica, arial, nimbussansl, liberationsans, freesans, clean, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	font-size: 14px;
+	color: #000000;
+	/* text-shadow: 1px 1px 1px #ffffff; */
+	padding-top: 10px;
+}
 
 a { text-decoration: none; color: #9D2727; }
 a:hover { text-decoration: underline; }
@@ -206,6 +213,7 @@ h3#comments { margin-bottom: 25px; }
 #sidebar { float:left; width:230px; background:url(images/sidebar-bottom.png) no-repeat left bottom; padding-bottom: 18px; }
 	#sidebar a { color: #9D2727; }
 	.widget { background:url(images/widget-top.png) no-repeat left top; padding:32px 30px 25px 28px; }
+	#calendar-3 {padding: 32px 10px 25px 10px;}
 		.widget h3.widgettitle { color:#131313; font-size:18px; text-transform: uppercase; text-align:center; padding-bottom:14px; background:url(images/vector-left.png) no-repeat left top; }
 			.widget h3.widgettitle span { background:url(images/vector-right.png) no-repeat right top; display: block; }
 		.widget ul li { background:url(images/sidebar-bullet.png) no-repeat 0px 7px;

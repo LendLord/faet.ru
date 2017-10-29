@@ -31,6 +31,15 @@
 
 </head>
 <body <?php body_class(); ?>>
+<img src="/wp-content/themes/Memoir/images/logokonfetka6.png" style="
+    display: block;
+    position: relative;
+    z-index: 1;
+    margin: 0 auto;
+    /* left: -250px; */
+    /* top: -34px; */
+    /* width: 12%; */
+">
 	<div id="main_bg">
 		<?php $bg_image = ( trim(get_option('memoir_custom_background')) <> '' ) ? trim(get_option('memoir_custom_background')) : get_template_directory_uri() . '/images/bg.jpg'; ?>
 		<img src="<?php echo esc_attr($bg_image); ?>" alt="" />
