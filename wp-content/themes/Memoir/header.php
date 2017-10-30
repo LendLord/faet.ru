@@ -49,9 +49,9 @@
 		<div id="menu">
 			<div id="menu-top"></div>
 			<div id="menu-content">
-				<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php $logo = (get_option('memoir_logo') <> '') ? get_option('memoir_logo') : get_template_directory_uri().'/images/logo.png'; ?>
-					<img src="<?php echo esc_attr($logo); ?>" alt="<?php echo esc_attr(get_bloginfo('name')); ?>" id="logo"/>
-				</a>
+<!--				<a href="--><?php //echo esc_url( home_url( '/' ) ); ?><!--">--><?php //$logo = (get_option('memoir_logo') <> '') ? get_option('memoir_logo') : get_template_directory_uri().'/images/logo.png'; ?>
+<!--					<img src="--><?php //echo esc_attr($logo); ?><!--" alt="--><?php //echo esc_attr(get_bloginfo('name')); ?><!--" id="logo"/>-->
+<!--				</a>-->
 
 				<?php $menuClass = 'nav sf-vertical sf-menu';
 				$menuID = 'top-menu';

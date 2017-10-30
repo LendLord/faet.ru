@@ -100,8 +100,8 @@ img#about-image { float: left; margin: 3px 8px 8px 0px; }
 
 #container { text-align: left; margin: 0 auto; width: 900px; position: relative; height: 100%; z-index: 100; }
 	#menu { position: absolute; top: 71px; left: -81px; width: 184px; z-index: 9999; }
-		#menu-top { background:url(images/menu-top.png) no-repeat; height: 32px; }
-		#menu-content { background:url(images/menu-content.png) repeat-y; text-align: center; padding: 0 15px 0 16px; position: relative; min-height:20px; }
+		#menu-top { background:url(images/menu-top.png) no-repeat; height: 32px;}
+		#menu-content { background:url(images/menu-content.png) repeat-y; text-align: center; padding: 0 15px 0 16px; position: relative; min-height:20px; padding-top: 25px;}
 			#logo { margin-bottom: 22px; margin-top: 20px; }
 		#menu-bottom { background:url(images/menu-bottom.png) no-repeat; height: 39px; }
 	#content-top { background:url(images/content-top-bg1.png) no-repeat; height:27px; }
@@ -113,6 +113,8 @@ img#about-image { float: left; margin: 3px 8px 8px 0px; }
 					h2.title a, h1.title, h3#comments { color: #131313; text-decoration: none; }
 					span.drop-caps { font-size: 48px; color: #9d2727; text-shadow: 1px 1px 1px #ffffff;float: left; margin-right:9px; margin-top:12px; display: block; line-height: 25px; }
 				div.post-thumbnail { height:135px; margin:0 20px 0 0; padding-top:7px; position:relative; width:135px; margin-right: 20px; }
+				div.full-size-post-thumbnail {width: auto!important; height: auto!important;}
+					div.full-size-post-thumbnail img{width: 170px!important; height: auto!important;}
 					span.post-overlay { background:url(images/post-overlay.png) no-repeat;
 display:block; height:136px; left:0px; position:absolute; top:7px; width:136px; }
 

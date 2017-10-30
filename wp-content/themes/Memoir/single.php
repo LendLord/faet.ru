@@ -11,13 +11,16 @@
 			$height = 135;
 			$classtext = '';
 			$titletext = get_the_title();
-			$thumbnail = get_thumbnail($width,$height,$classtext,$titletext,$titletext,false,'Entry');
+			$thumbnail = get_thumbnail($width,$height,$classtext,$titletext,$titletext,true,'Entry');
 			$thumb = $thumbnail["thumb"]; ?>
 
 			<?php if($thumb <> '' && get_option('memoir_thumbnails') == 'on') { ?>
-				<div class="post-thumbnail alignleft">
-					<?php print_thumbnail($thumb, $thumbnail["use_timthumb"], $titletext, $width, $height, $classtext); ?>
-					<span class="post-overlay"></span>
+				<div class="post-thumbnail full-size-post-thumbnail alignleft">
+                    <a href="<?php echo $thumbnail["fullpath"] ?>"  class="foobox">
+					<?php echo get_the_post_thumbnail(get_post( $post )->ID) ?>
+<!--					--><?php //print_thumbnail($thumb, $thumbnail["use_timthumb"], $titletext, $width, $height, $classtext); ?>
+<!--					<span class="post-overlay"></span>-->
+                    </a>
 				</div> 	<!-- end .post-thumbnail -->
 			<?php } ?>
 
