@@ -23,10 +23,10 @@
 define('DB_NAME', 'faet');
 
 /** Имя пользователя MySQL */
-define('DB_USER', 'root');
+define('DB_USER', 'faet');
 
 /** Пароль к базе данных MySQL */
-define('DB_PASSWORD', 'bananapi');
+define('DB_PASSWORD', 'faet');
 
 /** Имя сервера MySQL */
 define('DB_HOST', 'localhost');
