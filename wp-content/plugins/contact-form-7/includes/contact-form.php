@@ -394,7 +394,7 @@ class WPCF7_ContactForm {
 
 		$atts = wpcf7_format_atts( $atts );
 
-		$html .= sprintf( '<form %s>', $atts ) . "\n";
+		$html .= sprintf( '<form id="commentform" %s>', $atts ) . "\n";
 		$html .= $this->form_hidden_fields();
 		$html .= $this->form_elements();
 

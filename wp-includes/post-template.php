@@ -888,6 +888,8 @@ function wp_link_pages( $args = '' ) {
 				$link = $r['link_before'] . str_replace( '%', $i, $r['pagelink'] ) . $r['link_after'];
 				if ( $i != $page || ! $more && 1 == $page ) {
 					$link = _wp_link_page( $i ) . $link . '</a>';
+				}else{
+					$link = '<span class="current-page">' . $link . '</span>';
 				}
 				/**
 				 * Filters the HTML output of individual page number links.

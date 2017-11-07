@@ -631,8 +631,8 @@ function custom_comments_template($comment, $args, $depth) {
         <div class="avatar-custom"><?php echo get_avatar($comment, $getAvatarSize); ?></div>
         <div class="custom-comment-wrap">
             <h4 class="custom-comment-meta">
-                <?php _e('From'); ?> <span class="custom-comment-author"><?php echo $comment->comment_author; ?></span>
-                <?php _e('on'); ?> 
+                От <span class="custom-comment-author"><?php echo $comment->comment_author; ?></span>
+                к записи
                 <?php
                 if (isset($show_post_link) && $show_post_link == "yes") {
                     ?>

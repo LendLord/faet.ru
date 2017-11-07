@@ -185,3 +185,16 @@ function et_core_portability_link() {
 	return '';
 }
 endif;
+
+function remove_comment_fields($fields) {
+	unset($fields['url']);
+	return $fields;
+}
+add_filter('comment_form_default_fields', 'remove_comment_fields');
+
+function my_home_category( $query ) {
+ if ( $query->is_home() && $query->is_main_query() ) {
+ $query->set( 'cat', '3');
+ }
+}
+add_action( 'pre_get_posts', 'my_home_category' );
