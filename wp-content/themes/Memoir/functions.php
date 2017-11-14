@@ -198,3 +198,15 @@ function my_home_category( $query ) {
  }
 }
 add_action( 'pre_get_posts', 'my_home_category' );
+
+add_filter('body_class', 'modify_body_classes', 20);
+function modify_body_classes( $classes ) {
+  if( is_bbpress() ) {
+    $remove_classes = array('et_right_sidebar', 'et_left_sidebar', 'et_includes_sidebar');
+    foreach( $classes as $key => $value ) {
+      if ( in_array( $value, $remove_classes ) ) unset( $classes[$key] );
+    }
+    $classes[] = 'et_full_width_page';
+  }
+  return $classes;
+}
