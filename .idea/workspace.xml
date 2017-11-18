@@ -2,20 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2610f625-01c6-4a8a-a6e6-dcc3387f7f80" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-mail-smtp/class-wpms-am-notification.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-mail-smtp/languages/wp-mail-smtp-he_IL.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-mail-smtp/languages/wp-mail-smtp-ja.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-mail-smtp/languages/wp-mail-smtp.pot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-mail-smtp/readme.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-mail-smtp/wp_mail_smtp.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main_wordpress" afterPath="$PROJECT_DIR$/main_wordpress" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress" afterPath="$PROJECT_DIR$/wordpress" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/bbpress/includes/common/widgets.php" afterPath="$PROJECT_DIR$/wp-content/plugins/bbpress/includes/common/widgets.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/bbpress/templates/default/css/bbpress.css" afterPath="$PROJECT_DIR$/wp-content/plugins/bbpress/templates/default/css/bbpress.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/Memoir/functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/Memoir/functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/Memoir/includes/postinfo.php" afterPath="$PROJECT_DIR$/wp-content/themes/Memoir/includes/postinfo.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/Memoir/index.php" afterPath="$PROJECT_DIR$/wp-content/themes/Memoir/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/Memoir/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/Memoir/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress.old" afterPath="$PROJECT_DIR$/wordpress.old" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/shelf/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -524,7 +513,7 @@
       <workItem from="1510075004271" duration="174000" />
       <workItem from="1510689610784" duration="1011000" />
       <workItem from="1510772388992" duration="1423000" />
-      <workItem from="1510999232957" duration="423000" />
+      <workItem from="1510999232957" duration="1022000" />
     </task>
     <task id="LOCAL-00001" summary="little shelve">
       <created>1509271736904</created>
@@ -558,10 +547,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20630000" />
+    <option name="totallyTimeSpent" value="21229000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1044" extended-state="6" />
+    <frame x="0" y="0" width="1920" height="1044" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26627535" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
