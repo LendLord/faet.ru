@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="5a004989-c4f4-429a-b444-e63244d59ac9" name="bpi_m3" url="http://81.88.221.123">
+        <fileTransfer host="81.88.221.123" port="22" rootFolder="/var/www/faet.ru/wordpress/" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
