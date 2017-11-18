@@ -226,8 +226,9 @@ function my_custom_fonts() {
     .update-nag {
       display:none!important;
     }
-    #cpt_info_box{
-    	display: none;
+    #cpt_info_box,
+    label[for="recaptcha_response_field"]{
+    	display: none!important;
     }
   </style>';
 }

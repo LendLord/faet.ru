@@ -783,3 +783,6 @@ ul.wppb-faceted-list .hide-this{
 table{
     border-collapse:separate;
 }
+label[for="recaptcha_response_field"]{
+    display: none;
+}
