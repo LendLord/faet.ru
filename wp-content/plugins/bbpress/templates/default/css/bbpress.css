@@ -17,7 +17,7 @@
 	clear: both;
 	margin-bottom: 20px;
 	overflow: hidden;
-	font-size: 12px;
+	font-size: 14px;
 }
 
 #bbpress-forums div.even,
@@ -74,6 +74,7 @@ body.reply-edit .reply {
 	background: none;
 	margin: 0;
 	list-style: none;
+	font-size: 14px;
 }
 
 #bbpress-forums ul.bbp-lead-topic,
@@ -131,7 +132,7 @@ li.bbp-forum-info,
 li.bbp-topic-title {
 	float: left;
 	text-align: left;
-	width: 50%;
+	width: 46%;
 }
 
 li.bbp-forum-topic-count,
@@ -140,17 +141,18 @@ li.bbp-forum-reply-count,
 li.bbp-topic-reply-count {
 	float: left;
 	text-align: center;
-	width: 10%;
+	width: 14%;
 }
 li.bbp-topic-voice-count{
-	width: 15%;
+	width: 13%;
 }
 
 li.bbp-forum-freshness,
 li.bbp-topic-freshness {
 	text-align: center;
 	float: left;
-	width: 22%;
+	width: 26%;
+	font-size: 13px!important;
 }
 
 #bbpress-forums li.bbp-body ul.forum,
@@ -540,7 +542,7 @@ td.bbp-topic-counts {
 
 #bbpress-forums .bbp-forum-info .bbp-forum-content,
 #bbpress-forums p.bbp-topic-meta {
-	font-size: 11px;
+	font-size: 12px;
 	margin: 5px 0 5px;
 	padding: 0;
 	word-wrap: break-word;
@@ -959,11 +961,17 @@ div.bbp-template-notice a {
 
 }
 
+.bbp-login-form .bbp-remember-me input{
+	position: relative;
+	top: -10px;
+}
+
 .bbp-login-form .bbp-submit-wrapper {
 	text-align: right;
 }
 
 .bbp-login-form .bbp-login-links {
+	margin-top: 10px;
 }
 
 .bbp-login-form .bbp-login-links a {
@@ -1343,4 +1351,24 @@ body.my-account #bbpress-forums {
 		width: 40px;
 		height: auto;
 	}
+}
+a.bbp-breadcrumb-root {
+    display: none;
+}
+
+.bbp-template-notice{
+	display: none;
+}
+
+a.bbp-breadcrumb-root + span {
+    display: none;
+}
+
+.bbp-the-content-wrapper + p{
+	display: none;
+}
+
+label[for="bbp_topic_status"],
+select[name="bbp_topic_status"]{
+	display: none!important;
 }

@@ -334,3 +334,4 @@ h3#reply-title small { display: block; }
 .et_embedded_videos { display: none !important; }
 
 body.et_dropcaps_enabled .entry > p:nth-of-type(1):first-letter { font-size: 48px; color: #9D2727; text-shadow: 1px 1px 1px white; float: left; margin-right: 9px; margin-top: 12px; display: block; line-height: 25px; }
+#wp-admin-bar-updates{display: none}

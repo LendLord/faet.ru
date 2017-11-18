@@ -32,7 +32,7 @@
 				<div class="clear"></div>
 
 				<?php if ( get_option('memoir_readmore_button') == 'on' ) { ?>
-					<a href="<?php the_permalink(); ?>" class="readmore"><span><?php esc_html_e('Read More', 'Memoir'); ?></span></a>
+					<a href="<?php the_permalink(); ?>" class="readmore"><span>Подробнее</span></a>
 
 					<div class="clear"></div>
 				<?php } ?>

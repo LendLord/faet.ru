@@ -210,3 +210,24 @@ function modify_body_classes( $classes ) {
   }
   return $classes;
 }
+
+add_action('after_setup_theme', 'remove_admin_bar');
+
+function remove_admin_bar() {
+	if ( !current_user_can('administrator') && !is_admin() && !current_user_can('editor') ) {
+		show_admin_bar(false);
+	}
+}
+
+add_action('admin_head', 'my_custom_fonts');
+
+function my_custom_fonts() {
+  echo '<style>
+    .update-nag {
+      display:none!important;
+    }
+    #cpt_info_box{
+    	display: none;
+    }
+  </style>';
+}

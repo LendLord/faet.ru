@@ -2,8 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2610f625-01c6-4a8a-a6e6-dcc3387f7f80" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-mail-smtp/class-wpms-am-notification.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-mail-smtp/languages/wp-mail-smtp-he_IL.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-mail-smtp/languages/wp-mail-smtp-ja.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-mail-smtp/languages/wp-mail-smtp.pot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-mail-smtp/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-mail-smtp/wp_mail_smtp.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress" afterPath="$PROJECT_DIR$/wordpress" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/bbpress/includes/common/widgets.php" afterPath="$PROJECT_DIR$/wp-content/plugins/bbpress/includes/common/widgets.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/bbpress/templates/default/css/bbpress.css" afterPath="$PROJECT_DIR$/wp-content/plugins/bbpress/templates/default/css/bbpress.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/Memoir/functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/Memoir/functions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/Memoir/includes/postinfo.php" afterPath="$PROJECT_DIR$/wp-content/themes/Memoir/includes/postinfo.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/Memoir/index.php" afterPath="$PROJECT_DIR$/wp-content/themes/Memoir/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/Memoir/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/Memoir/style.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/shelf/" />
@@ -17,63 +28,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="single.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/Memoir/single.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="18" lean-forward="false" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="page.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/Memoir/page.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="22" lean-forward="false" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="post-template.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wordpress/wp-includes/post-template.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="14416">
-              <caret line="855" column="9" lean-forward="false" selection-start-line="855" selection-start-column="9" selection-end-line="855" selection-end-column="9" />
-              <folding>
-                <element signature="e#6#153#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="post-template.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-includes/post-template.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27115">
-              <caret line="1602" column="20" lean-forward="false" selection-start-line="1602" selection-start-column="20" selection-end-line="1602" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bt-comments.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wordpress/wp-content/plugins/show-all-comments-in-one-page/bt-comments.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10744">
-              <caret line="632" column="42" lean-forward="false" selection-start-line="632" selection-start-column="23" selection-end-line="632" selection-end-column="42" />
-              <folding>
-                <marker date="1509654110628" expanded="true" signature="15551:15827" ph="SELECT * FRO... wp_comments" />
-                <marker date="1509654110628" expanded="true" signature="16080:16400" ph="SELECT * FRO... wp_comments" />
-                <marker date="1509654110628" expanded="true" signature="16720:17173" ph="SELECT * FRO... wp_comments" />
-                <marker date="1509654110628" expanded="true" signature="18377:18390" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="bt-comments.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/show-all-comments-in-one-page/bt-comments.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -92,41 +46,91 @@
       <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/Memoir/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="776">
-              <caret line="192" column="67" lean-forward="false" selection-start-line="192" selection-start-column="67" selection-end-line="192" selection-end-column="67" />
+            <state relative-caret-position="3638">
+              <caret line="214" column="0" lean-forward="false" selection-start-line="214" selection-start-column="0" selection-end-line="214" selection-end-column="0" />
+              <folding>
+                <marker date="1510908682000" expanded="true" signature="7936:8056" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="widgets.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/bbpress/includes/common/widgets.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1938">
+              <caret line="121" column="185" lean-forward="false" selection-start-line="121" selection-start-column="185" selection-end-line="121" selection-end-column="185" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="bbpress.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/bbpress/templates/default/css/bbpress.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="193">
+              <caret line="1149" column="32" lean-forward="false" selection-start-line="1149" selection-start-column="32" selection-end-line="1149" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="capabilities.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-includes/capabilities.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="11594">
+              <caret line="687" column="33" lean-forward="false" selection-start-line="687" selection-start-column="33" selection-end-line="687" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="capabilities.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wordpress/wp-includes/capabilities.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="9044">
+              <caret line="537" column="32" lean-forward="false" selection-start-line="537" selection-start-column="32" selection-end-line="537" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/Memoir/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="190" column="0" lean-forward="false" selection-start-line="190" selection-start-column="0" selection-end-line="190" selection-end-column="0" />
+            <state relative-caret-position="3128">
+              <caret line="184" column="39" lean-forward="false" selection-start-line="184" selection-start-column="39" selection-end-line="184" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="form-tag.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/form-tag.php">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/Memoir/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="629">
+              <caret line="37" column="26" lean-forward="false" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contact-form.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/contact-form.php">
+      <file leaf-file-name="postinfo.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/Memoir/includes/postinfo.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6732">
-              <caret line="396" column="48" lean-forward="false" selection-start-line="396" selection-start-column="48" selection-end-line="396" selection-end-column="48" />
-              <folding>
-                <marker date="1509652831675" expanded="true" signature="10447:10461" ph="..." />
-              </folding>
+            <state relative-caret-position="1054">
+              <caret line="62" column="24" lean-forward="false" selection-start-line="62" selection-start-column="24" selection-end-line="62" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="comment-template.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wordpress/wp-includes/comment-template.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25228">
+              <caret line="1491" column="9" lean-forward="false" selection-start-line="1491" selection-start-column="9" selection-end-line="1491" selection-end-column="9" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -135,40 +139,42 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>page-content</find>
-      <find>top-menu</find>
-      <find>sf-with-ul</find>
-      <find>wb-autocomplete-suggestions</find>
-      <find>copyright</find>
-      <find>copyright&quot;</find>
-      <find>Comments not found.</find>
-      <find>body</find>
-      <find>id=&quot;logo&quot;</find>
-      <find>\&lt;\?php get_header\(\)\; \?\&gt;\n\	\&lt;div id\=\&quot;main\-area\&quot;\&gt;\n\	\&lt;\?php if \( have_posts\(\) \) \: while \( have_posts\(\) \) \: the_post\(\)\; \?\&gt;\n\	\	\&lt;\?php if \(get_option\(\'memoir_integration_single_top\'\) \&lt;\&gt; \'\' \&amp;\&amp; get_option\(\'memoir_integrate_singletop_enable\'\) \=\= \'on\'\) echo\(get_option\(\'memoir_integration_single_top\'\)\)\; \?\&gt;\n\n\	\	\&lt;div class\=\&quot;entry clearfix post\&quot;\&gt;\n\	\	\	\&lt;h1 class\=\&quot;title\&quot;\&gt;\&lt;\?php the_title\(\)\; \?\&gt;\&lt;\/h1\&gt;\n\n\	\	\	\&lt;\?php \$thumb \= \'\'\;\n\	\	\	\$width \= 135\;\n\	\	\	\$height \= 135\;\n\	\	\	\$classtext \= \'\'\;\n\	\	\	\$titletext \= get_the_title\(\)\;\n\	\	\	\$thumbnail \= get_thumbnail\(\$width\,\$height\,\$classtext\,\$titletext\,\$titletext\,false\,\'Entry\'\)\;\n\	\	\	\$thumb \= \$thumbnail\[\&quot;thumb\&quot;\]\; \?\&gt;\n\n\	\	\	\&lt;\?php if\(\$thumb \&lt;\&gt; \'\' \&amp;\&amp; get_option\(\'memoir_thumbnails\'\) \=\= \'on\'\) \{ \?\&gt;\n\	\	\	\	\&lt;div class\=\&quot;post\-thumbnail alignleft\&quot;\&gt;\n\	\	\	\	\	\&lt;\?php print_thumbnail\(\$thumb\, \$thumbnail\[\&quot;use_timthumb\&quot;\]\, \$titletext\, \$width\, \$height\, \$classtext\)\; \?\&gt;\n\	\	\	\	\	\&lt;span class\=\&quot;post\-overlay\&quot;\&gt;\&lt;\/span\&gt;\n\	\	\	\	\&lt;\/div\&gt; \	\&lt;\!\-\- end \.post\-thumbnail \-\-\&gt;\n\	\	\	\&lt;\?php \} \?\&gt;\n\n\	\	\	\&lt;\?php\n\	\	\	\	echo apply_filters\(\'the_content\'\,et_create_dropcaps\(get_the_content\(\)\)\)\;\n\	\	\	\?\&gt;\n\	\	\	\&lt;\?php wp_link_pages\(array\(\'before\' \=\&gt; \'\&lt;p\&gt;\&lt;strong\&gt;\'\.esc_html__\(\'Pages\'\,\'Memoir\'\)\.\'\:\&lt;\/strong\&gt; \'\, \'after\' \=\&gt; \'\&lt;\/p\&gt;\'\, \'next_or_number\' \=\&gt; \'number\'\)\)\; \?\&gt;\n\	\	\	\&lt;\?php edit_post_link\(esc_html__\(\'Edit this page\'\,\'Memoir\'\)\)\; \?\&gt;\n\n\	\	\	\&lt;\?php get_template_part\(\'includes\/postinfo\'\)\; \?\&gt;\n\	\	\&lt;\/div\&gt; \&lt;\!\-\- end \.entry \-\-\&gt;\n\n\	\	\&lt;\?php if \(get_option\(\'memoir_integration_single_bottom\'\) \&lt;\&gt; \'\' \&amp;\&amp; get_option\(\'memoir_integrate_singlebottom_enable\'\) \=\= \'on\'\) echo\(get_option\(\'memoir_integration_single_bottom\'\)\)\; \?\&gt;\n\n\	\	\&lt;\?php if \(get_option\(\'memoir_468_enable\'\) \=\= \'on\'\) \{ \?\&gt;\n\	\	\	\&lt;\?php if\(get_option\(\'memoir_468_adsense\'\) \&lt;\&gt; \'\'\) echo\(get_option\(\'memoir_468_adsense\'\)\)\;\n\	\	\	else \{ \?\&gt;\n\	\	\	\	\&lt;a href\=\&quot;\&lt;\?php echo esc_url\(get_option\(\'memoir_468_url\'\)\)\; \?\&gt;\&quot;\&gt;\&lt;img src\=\&quot;\&lt;\?php echo esc_url\(get_option\(\'memoir_468_image\'\)\)\; \?\&gt;\&quot; alt\=\&quot;468 ad\&quot; class\=\&quot;foursixeight\&quot; \/\&gt;\&lt;\/a\&gt;\n\	\	\	\&lt;\?php \} \?\&gt;\n\	\	\&lt;\?php \} \?\&gt;\n\n\	\	\&lt;\?php if \(get_option\(\'memoir_show_postcomments\'\) \=\= \'on\'\) comments_template\(\'\'\, true\)\; \?\&gt;\n\	\&lt;\?php endwhile\; endif\; \?\&gt;\n\	\&lt;\/div\&gt; \&lt;\!\-\- end \#main\-area \-\-\&gt;\n\	\&lt;\?php get_sidebar\(\)\; \?\&gt;\n\&lt;\?php get_footer\(\)\; \?\&gt;</find>
-      <find>$resize</find>
-      <find>post-thumbnail</find>
-      <find>ge</find>
-      <find>get_t</find>
-      <find>post</find>
-      <find>get_the_post</find>
-      <find>print_thumbnail</find>
-      <find>Страницы</find>
-      <find>&lt;</find>
-      <find>&lt;strong&gt;$pa</find>
-      <find>&lt;strong&gt;$p</find>
-      <find>&lt;strong&gt;$</find>
-      <find>&lt;strong&gt;</find>
-      <find>&lt;strong</find>
-      <find>Страницы:</find>
-      <find>Pages:</find>
-      <find>wp_link_pages</find>
-      <find>form</find>
-      <find>&lt;form</find>
-      <find>custom-comment-meta</find>
+      <find>Комментарии</find>
+      <find>Комментари</find>
+      <find>Комментарии отк</find>
+      <find>Комментарии откл</find>
+      <find>Комментарии отклю</find>
+      <find>0 comments</find>
+      <find>Под</find>
+      <find>administrator</find>
+      <find>к</find>
+      <find>r</find>
+      <find>regis</find>
+      <find>registration</find>
+      <find>registratio</find>
+      <find>registrati</find>
+      <find>registrat</find>
+      <find>registra</find>
+      <find>registr</find>
+      <find>Р</find>
+      <find>Реги</find>
+      <find>Регис</find>
+      <find>Регист</find>
+      <find>Регистр</find>
+      <find>Регистра</find>
+      <find>Регистрац</find>
+      <find>Регистраци</find>
+      <find>Регистрация</find>
+      <find>bbp-login-links</find>
+      <find>adminis</find>
+      <find>bbp-login-li</find>
+      <find>bbp-remember-me</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/wp-content/themes/Memoir/images</dir>
       <dir>$PROJECT_DIR$/wp-content/themes/Memoir/</dir>
+      <dir>$PROJECT_DIR$/wp-content/themes/Memoir</dir>
+      <dir>$PROJECT_DIR$/wp-content/plugins/bbpress</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -190,8 +196,11 @@
         <option value="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/contact-form.php" />
         <option value="$PROJECT_DIR$/wordpress/wp-content/plugins/show-all-comments-in-one-page/bt-comments.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/show-all-comments-in-one-page/bt-comments.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/Memoir/functions.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/Memoir/style.css" />
+        <option value="$PROJECT_DIR$/wp-content/themes/Memoir/includes/postinfo.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/Memoir/functions.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/bbpress/includes/common/widgets.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/bbpress/templates/default/css/bbpress.css" />
       </list>
     </option>
   </component>
@@ -263,7 +272,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
+              <option name="myItemId" value="plugins" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -281,11 +290,127 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
+              <option name="myItemId" value="plugins" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Memoir" />
+              <option name="myItemId" value="bbpress" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="faet.ru" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="faet.ru" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bbpress" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="faet.ru" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="faet.ru" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bbpress" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="faet.ru" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="faet.ru" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bbpress" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="faet.ru" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="faet.ru" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bbpress" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="includes" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -397,6 +522,9 @@
       <workItem from="1509649797813" duration="3441000" />
       <workItem from="1509879811899" duration="1224000" />
       <workItem from="1510075004271" duration="174000" />
+      <workItem from="1510689610784" duration="1011000" />
+      <workItem from="1510772388992" duration="1423000" />
+      <workItem from="1510999232957" duration="423000" />
     </task>
     <task id="LOCAL-00001" summary="little shelve">
       <created>1509271736904</created>
@@ -430,18 +558,18 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17773000" />
+    <option name="totallyTimeSpent" value="20630000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1044" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25773746" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26627535" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33970752" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33970752" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -468,7 +596,8 @@
     <MESSAGE value="storm settings" />
     <MESSAGE value="поправил размеры картинки в посте" />
     <MESSAGE value="плагины, бд" />
-    <option name="LAST_COMMIT_MESSAGE" value="плагины, бд" />
+    <MESSAGE value="вордпресс" />
+    <option name="LAST_COMMIT_MESSAGE" value="вордпресс" />
   </component>
   <component name="WordPressConfiguration" enabled="true">
     <wordpressPath>$PROJECT_DIR$</wordpressPath>
@@ -478,62 +607,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/contact-form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6732">
-          <caret line="396" column="48" lean-forward="false" selection-start-line="396" selection-start-column="48" selection-end-line="396" selection-end-column="48" />
-          <folding>
-            <marker date="1509652831675" expanded="true" signature="10447:10461" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/Memoir/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3264">
-          <caret line="192" column="67" lean-forward="false" selection-start-line="192" selection-start-column="67" selection-end-line="192" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/Memoir/single.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="18" lean-forward="false" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/Memoir/page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="22" lean-forward="false" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wordpress/wp-includes/post-template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14535">
-          <caret line="855" column="9" lean-forward="false" selection-start-line="855" selection-start-column="9" selection-end-line="855" selection-end-column="9" />
-          <folding>
-            <element signature="e#6#153#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/Memoir/includes/page_templates/page_templates.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="2" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-includes/post-template.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27115">
           <caret line="1602" column="20" lean-forward="false" selection-start-line="1602" selection-start-column="20" selection-end-line="1602" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -541,12 +618,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="10744">
           <caret line="632" column="42" lean-forward="false" selection-start-line="632" selection-start-column="23" selection-end-line="632" selection-end-column="42" />
-          <folding>
-            <marker date="1509654110628" expanded="true" signature="15551:15827" ph="SELECT * FRO... wp_comments" />
-            <marker date="1509654110628" expanded="true" signature="16080:16400" ph="SELECT * FRO... wp_comments" />
-            <marker date="1509654110628" expanded="true" signature="16720:17173" ph="SELECT * FRO... wp_comments" />
-            <marker date="1509654110628" expanded="true" signature="18377:18390" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -562,7 +633,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -570,9 +640,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6732">
           <caret line="396" column="48" lean-forward="false" selection-start-line="396" selection-start-column="48" selection-end-line="396" selection-end-column="48" />
-          <folding>
-            <marker date="1509652831675" expanded="true" signature="10447:10461" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -593,7 +660,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="918">
           <caret line="62" column="32" lean-forward="false" selection-start-line="62" selection-start-column="32" selection-end-line="62" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -623,7 +689,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1734">
           <caret line="109" column="9" lean-forward="false" selection-start-line="109" selection-start-column="9" selection-end-line="109" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -666,7 +731,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -730,7 +794,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="13" column="7" lean-forward="false" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -738,7 +801,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -770,19 +832,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/Memoir/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="87" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/Memoir/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="146">
           <caret line="62" column="32" lean-forward="false" selection-start-line="62" selection-start-column="32" selection-end-line="62" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -804,7 +857,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="29" column="18" lean-forward="false" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -812,9 +864,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="14416">
           <caret line="855" column="9" lean-forward="false" selection-start-line="855" selection-start-column="9" selection-end-line="855" selection-end-column="9" />
-          <folding>
-            <element signature="e#6#153#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -822,7 +871,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="26" column="22" lean-forward="false" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -830,7 +878,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -838,9 +885,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6732">
           <caret line="396" column="48" lean-forward="false" selection-start-line="396" selection-start-column="48" selection-end-line="396" selection-end-column="48" />
-          <folding>
-            <marker date="1509652831675" expanded="true" signature="10447:10461" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -848,7 +892,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27115">
           <caret line="1602" column="20" lean-forward="false" selection-start-line="1602" selection-start-column="20" selection-end-line="1602" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -856,12 +899,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="10744">
           <caret line="632" column="42" lean-forward="false" selection-start-line="632" selection-start-column="23" selection-end-line="632" selection-end-column="42" />
-          <folding>
-            <marker date="1509654110628" expanded="true" signature="15551:15827" ph="SELECT * FRO... wp_comments" />
-            <marker date="1509654110628" expanded="true" signature="16080:16400" ph="SELECT * FRO... wp_comments" />
-            <marker date="1509654110628" expanded="true" signature="16720:17173" ph="SELECT * FRO... wp_comments" />
-            <marker date="1509654110628" expanded="true" signature="18377:18390" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -878,18 +915,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/Memoir/functions.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/Memoir/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="776">
-          <caret line="192" column="67" lean-forward="false" selection-start-line="192" selection-start-column="67" selection-end-line="192" selection-end-column="67" />
+        <state relative-caret-position="3128">
+          <caret line="184" column="39" lean-forward="false" selection-start-line="184" selection-start-column="39" selection-end-line="184" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/Memoir/style.css">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/Memoir/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="190" column="0" lean-forward="false" selection-start-line="190" selection-start-column="0" selection-end-line="190" selection-end-column="0" />
+        <state relative-caret-position="629">
+          <caret line="37" column="26" lean-forward="false" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wordpress/wp-includes/comment-template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25228">
+          <caret line="1491" column="9" lean-forward="false" selection-start-line="1491" selection-start-column="9" selection-end-line="1491" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/Memoir/includes/postinfo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1054">
+          <caret line="62" column="24" lean-forward="false" selection-start-line="62" selection-start-column="24" selection-end-line="62" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wordpress/wp-includes/capabilities.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9044">
+          <caret line="537" column="32" lean-forward="false" selection-start-line="537" selection-start-column="32" selection-end-line="537" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/capabilities.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11594">
+          <caret line="687" column="33" lean-forward="false" selection-start-line="687" selection-start-column="33" selection-end-line="687" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/Memoir/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3638">
+          <caret line="214" column="0" lean-forward="false" selection-start-line="214" selection-start-column="0" selection-end-line="214" selection-end-column="0" />
+          <folding>
+            <marker date="1510908682000" expanded="true" signature="7936:8056" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/bbpress/includes/common/widgets.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1938">
+          <caret line="121" column="185" lean-forward="false" selection-start-line="121" selection-start-column="185" selection-end-line="121" selection-end-column="185" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/bbpress/templates/default/css/bbpress.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="1149" column="32" lean-forward="false" selection-start-line="1149" selection-start-column="32" selection-end-line="1149" selection-end-column="32" />
           <folding />
         </state>
       </provider>
