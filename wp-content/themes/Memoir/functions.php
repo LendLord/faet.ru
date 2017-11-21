@@ -232,3 +232,11 @@ function my_custom_fonts() {
     }
   </style>';
 }
+
+function my_myme_types($mime_types){
+	$mime_types['svg'] = 'image/svg+xml'; //Adding svg extension
+	$mime_types['fb2'] = 'application/x-fictionbook';
+	$mime_types['epub'] = 'application/epub+zip';
+	return $mime_types;
+}
+add_filter('upload_mimes', 'my_myme_types', 1, 1);
