@@ -630,6 +630,11 @@ td.bbp-topic-counts {
 	display: inline-block;
 }
 
+label[for="bbp_anonymous_website"],
+#bbp_anonymous_website{
+    display: none!important;
+}
+
 #bbp-edit-topic-tag.bbp-form fieldset.bbp-form label,
 #bbp-login fieldset label,
 #bbp-register fieldset label,
