@@ -227,7 +227,9 @@ function my_custom_fonts() {
       display:none!important;
     }
     #cpt_info_box,
-    label[for="recaptcha_response_field"]{
+    label[for="recaptcha_response_field"],
+    label[for="bbp_anonymous_website"],
+    #bbp_anonymous_website{
     	display: none!important;
     }
   </style>';
